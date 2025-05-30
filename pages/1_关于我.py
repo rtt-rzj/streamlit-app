@@ -8,7 +8,12 @@ st.write("--- ")
 
 col1, col2 = st.columns([1,1.5])
 with col1:
-    st.image("images\1.png", width=250)
+        image_path = os.path.join("images", "1.png")
+    if os.path.exists(image_path):
+        image = Image.open(image_path)
+        right_col.image(image, width=250)
+    else:
+        right_col.warning("Profile image not found")
     st.markdown("**RONG Zijian**")
     st.markdown("📍 HONG KONG, China")
 
