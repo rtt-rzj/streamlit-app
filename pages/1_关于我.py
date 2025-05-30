@@ -8,7 +8,7 @@ st.write("--- ")
 
 col1, col2 = st.columns([1,1.5])
 with col1:
-    st.image(r"C:\Users\rtt_rzj\Desktop\streamlit\images\1.png", width=250)
+    st.image("images\1.png", width=250)
     st.markdown("**RONG Zijian**")
     st.markdown("📍 HONG KONG, China")
 
