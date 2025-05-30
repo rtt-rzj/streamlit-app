@@ -21,7 +21,7 @@ with col1:
 with col2:
     st.subheader("我是谁？")
     st.write("""
-    我是一个对 写代码 和 摸鱼 充满热情的砖家。
+    我是一个对 生成代码 和 摸鱼 充满热情的砖家。
     拥有0.5年的 [Ctrl+C/Ctrl+V] 经验，我致力于 [让BUG无处遁形，或者至少让它们看起来像是特性]。
     我坚信 [只要咖啡管够，Nothing is impossible]。
     """
