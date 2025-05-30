@@ -190,4 +190,4 @@ skills_html += '</div>'
 st.markdown(skills_html, unsafe_allow_html=True)
 
 # --- 页脚 ---
-st.markdown("<div class='footer'>© 2025 RONG Zijian | 用 ❤️ 和 Streamlit 构建</div>", unsafe_allow_html=True)
+st.markdown("<div class='footer'>© 2025 RONG Zijian | 用 ❤️ 和 Streamlit 构建 | 献给 TY</div>", unsafe_allow_html=True)
