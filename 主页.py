@@ -153,7 +153,7 @@ st.markdown("""
 
 # --- 页面头部 ---
 st.markdown("<h1>🚀 欢迎来到我的数字空间</h1>", unsafe_allow_html=True)
-st.markdown("<h3 class='user-intro'>你好，我是 RONG Zijian 👋</h3>", unsafe_allow_html=True)
+st.markdown("<h3 class='user-intro'>你好，我是荣子建 RONG Zijian 👋</h3>", unsafe_allow_html=True)
 st.markdown("<p class='user-caption'>一位热情的学生，专注于学好Machine Learning in Marketing</p>", unsafe_allow_html=True)
 st.divider()
 
