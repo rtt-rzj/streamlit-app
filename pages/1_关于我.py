@@ -11,9 +11,9 @@ with col1:
         image_path = os.path.join("images", "1.png")
     if os.path.exists(image_path):
         image = Image.open(image_path)
-        right_col.image(image, width=250)
+        col1.image(image, width=250)
     else:
-        right_col.warning("Profile image not found")
+        col1.warning("Profile image not found")
     st.markdown("**RONG Zijian**")
     st.markdown("📍 HONG KONG, China")
 
