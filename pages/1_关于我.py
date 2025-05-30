@@ -13,7 +13,7 @@ with col1:
         image = Image.open(image_path)
         col1.image(image, width=250)
     else:
-    col1.warning("Profile image not found")
+        col1.warning("Profile image not found")
     st.markdown("**RONG Zijian**")
     st.markdown("📍 HONG KONG, China")
 
