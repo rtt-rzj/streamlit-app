@@ -183,7 +183,7 @@ st.divider()
 # --- 技能栈 --- 
 st.markdown("<h3 style='text-align:center; margin-bottom:1em;'>🎯 我的技能栈</h3>", unsafe_allow_html=True)
 skills_html = '<div class="custom-card skills-card-content">'
-skills = ["快速召唤外卖", "在DDL前反复横跳", "专业抬杠运动员", "摸鱼大师", "表情包富翁", "熬夜冠军", "拖延症晚期患者", "反向种草小能手", "退堂鼓表演艺术家"]
+skills = ["快速召唤外卖", "在DDL前反复横跳", "PPT美容师", "专业抬杠运动员", "摸鱼大师", "表情包富翁", "熬夜冠军", "拖延症晚期患者", "反向种草小能手", "退堂鼓表演艺术家"]
 for skill in skills:
     skills_html += f'<span class="skill-tag">{skill}</span>'
 skills_html += '</div>'
