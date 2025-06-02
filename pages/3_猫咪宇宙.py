@@ -6,6 +6,7 @@ import numpy as np
 st.set_page_config(page_title="宇宙猫咪数据洞察", page_icon="🌌😼")
 
 st.markdown("# 🌌😼 宇宙猫咪数据洞察")
+st.write("--- ")
 st.write(
     """欢迎来到宇宙猫咪的多维数据探索中心！"""
 )
