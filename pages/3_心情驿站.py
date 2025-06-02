@@ -21,4 +21,4 @@ elif selected_mood == "灵感爆发":
 
 st.divider()
 # --- 页脚 ---
-st.markdown("<div class='footer'>© 2025 RONG Zijian | 用 ❤️ 和 Streamlit 构建</div>", unsafe_allow_html=True)
+st.caption("<div class='footer'>© 2025 RONG Zijian | 用 ❤️ 和 Streamlit 构建</div>", unsafe_allow_html=True)
